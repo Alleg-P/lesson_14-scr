@@ -2,6 +2,6 @@
 
 prices = [99, 150, 200, 349, 501]
 
-rounded_prices = sorted(list(set(map(lambda x: round(x, -2), prices))))
+rounded_prices = sorted(list(dict.fromkeys(map(lambda x: round(x, -2), prices))))
 
 print(rounded_prices)

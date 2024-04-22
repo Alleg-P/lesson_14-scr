@@ -7,6 +7,6 @@ items = [
 ]
 
 for item in items:
-    result = dict(map(lambda x: (x[1], 1), item))
+    result = list(map(lambda x: (x[1], 1), item))
     print(result)
     

@@ -6,4 +6,4 @@ def report_generator(*args):
 
 report = report_generator("Стр 1", "Стр 2", ...)
 
-print(report) # <generator object report_generator at 0x7f310c0c4120>
+print(report)
